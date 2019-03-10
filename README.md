@@ -1,5 +1,5 @@
 # viminterp
-Vim script interpreter
+Small Vim script interpreter
 
 ## Usage
 ```
