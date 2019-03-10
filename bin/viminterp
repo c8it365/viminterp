@@ -1,0 +1,2 @@
+#!/bin/sh -eu
+type vim>/dev/null 2>&1;: $1;[ -f $1 ];vim -X -N -u NONE -i NONE -e --cmd "source $1|qa!" $@ 2>&1
